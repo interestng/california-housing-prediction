@@ -1,0 +1,32 @@
+# Data files (keep original, ignore processed)
+data/*_processed.csv
+data/X_test.csv
+data/y_test.csv
+data/*.pkl
+
+# Output files
+outputs/**/*.pkl
+outputs/**/*.png
+outputs/**/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
